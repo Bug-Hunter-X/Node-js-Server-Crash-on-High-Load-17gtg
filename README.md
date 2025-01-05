@@ -1,0 +1,3 @@
+# Node.js Server Crash on High Load
+
+This repository demonstrates a common issue in Node.js servers where they crash unexpectedly under high load. The original `server.js` demonstrates the problematic code.  The solution `server-fixed.js` implements fixes to prevent this type of crash.  The crash may be caused by memory leaks, unhandled exceptions, or other concurrency issues.  This example focuses on demonstrating a common occurrence and providing a possible fix, which might not apply to every situation.
